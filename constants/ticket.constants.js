@@ -1,0 +1,5 @@
+exports.TICKET_STATUS = {
+  OPEN: "OPEN",
+  CLOSED: "CLOSED",
+  BLOCKED: "BLOCKED",
+};
