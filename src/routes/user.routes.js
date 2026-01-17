@@ -3,7 +3,7 @@ const authenticate = require("../middlewares/authenticate");
 const authorize = require("../middlewares/authorize");
 const userController = require("../controllers/user.controller");
 const validate = require("../middlewares/validate");
-const { updateUserSchema } = require("../src/validators/user.validator");
+const { updateUserSchema } = require("../validators/user.validator");
 
 // All routes require authentication
 router.use(authenticate);

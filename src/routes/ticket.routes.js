@@ -9,7 +9,7 @@ const ticketController = require("../controllers/ticket.controller");
 const {
   createTicketSchema,
   updateTicketSchema,
-} = require("../src/validators/ticket.validator");
+} = require("../validators/ticket.validator");
 
 /**
  * Protect all ticket & comment routes
