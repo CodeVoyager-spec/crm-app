@@ -3,7 +3,7 @@ const router = express.Router();
 const commentController = require("../controllers/comment.controller");
 const authenticate = require("../middlewares/authenticate");
 const validate = require("../middlewares/validate");
-const { createCommentSchema } = require("../validators/comment.validator");
+const { createCommentSchema } = require("../src/validators/comment.validator");
 
 /**
  * Routes for comments related to a ticket
